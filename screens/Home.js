@@ -44,7 +44,6 @@ export default function Home({ navigation }) {
         showsVerticalScrollIndicator={false}
         contentContainerStyle={{ paddingBottom: 40 }}
       >
-        {/* ================= TOP NAV ================= */}
         <View style={[styles.topNav, { backgroundColor: theme.card }]}>
           <Image
             source={require('../assets/limko.jpg')}

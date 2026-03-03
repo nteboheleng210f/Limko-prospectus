@@ -49,7 +49,7 @@ const facultiesData = [
         name: 'Retailing', 
         description: 'Covers retail management, consumer behavior, merchandising, and visual display strategies. Graduates gain practical knowledge of running retail businesses and managing customer experiences in competitive markets.', 
         image: require('../assets/retailing.jpg'),
-         video: require('../assets/videos/retailing.mp4')
+         video: require('../assets/videos/Retailing.mp4')
       },
     ],
   },
@@ -64,7 +64,7 @@ const facultiesData = [
         name: 'International Business', 
         description: 'Equips students with knowledge of global trade systems, international marketing, cross-cultural management, and economic policies. Graduates are prepared to operate businesses in international markets.', 
         image: require('../assets/International.jpg'), 
-        video: require('../assets/videos/internationl.mp4')
+        video: require('../assets/videos/Internationl.mp4')
       },
       { 
         id: '7', 
@@ -86,14 +86,14 @@ const facultiesData = [
         name: 'Marketing', 
         description: 'Teaches branding strategies, digital marketing, consumer psychology, and market research. Students learn how to create competitive marketing campaigns and manage brand identity.', 
        image: require('../assets/market.jpg'),
-       video: require('../assets/videos/market.mp4')
+       video: require('../assets/videos/Market.mp4')
       },
       { 
         id: '10', 
         name: 'Business Management', 
         description: 'Provides knowledge in strategic management, operations, finance, and leadership. Graduates are prepared to manage organizations, lead teams, and drive business growth.', 
         image: require('../assets/management.png'), 
-        video: require('../assets/videos/management.mp4')
+        video: require('../assets/videos/Management.mp4')
       },
     ],
   },
@@ -116,7 +116,7 @@ const facultiesData = [
         name: 'Urban Planning', 
         description: 'Prepares students to design smart, sustainable cities. Topics include environmental planning, infrastructure systems, and community development strategies.', 
        image: require('../assets/Urban.jpg') , 
-       video: require('../assets/videos/inter.mp4')
+       video: require('../assets/videos/Inter.mp4')
       },
       { 
         id: '13', 
@@ -144,7 +144,7 @@ const facultiesData = [
 
   {
     name: 'Faculty of Infomation Communication Technology',
-    image: require('../assets/Ict.png'),
+    image: require('../assets/ICTS.png'),
     requirements: 'Minimum  4 credits including English and Mathematics.',
     courses: [
       { 
@@ -167,7 +167,7 @@ const facultiesData = [
         name: 'Information Technology', 
         description: 'Focuses on IT infrastructure, networking, cybersecurity fundamentals, and cloud computing systems for modern organizations.', 
         image: require('../assets/Information Technology.jpg'),
-        video: require('../assets/videos/InfoTEch.mp4')
+        video: require('../assets/videos/Infotech.mp4')
       },
       { 
         id: '19', 

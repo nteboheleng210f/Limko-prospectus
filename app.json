@@ -4,11 +4,11 @@
     "slug": "Limkokwings",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/limko.jpg",
+    "icon": "./assets/limko.png",
     "userInterfaceStyle": "light",
     "newArchEnabled": true,
     "splash": {
-      "image": "./assets/limko.jpg",
+      "image": "./assets/limko.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -20,10 +20,19 @@
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "edgeToEdgeEnabled": true
+      "edgeToEdgeEnabled": true,
+      "package": "com.nteboheleng.Limkokwings"
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "0a5dc789-ea03-4f6c-9f76-8ab026cca338"
+      }
+    },
+    "plugins": [
+      "expo-font"
+    ]
   }
 }
