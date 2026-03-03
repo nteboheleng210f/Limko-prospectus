@@ -1,0 +1,20 @@
+# Node modules
+node_modules/
+
+# Expo local state
+.expo/
+
+# Logs
+*.log
+
+# IDE settings
+.vscode/
+.idea/
+
+# Android/iOS build folders
+android/build/
+android/app/build/
+ios/build/
+
+# Keep your assets (including compressed videos) in build
+assets/
