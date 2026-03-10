@@ -17,14 +17,15 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/limko.png",
         "backgroundColor": "#ffffff"
       },
       "edgeToEdgeEnabled": true,
-      "package": "com.nteboheleng.Limkokwings"
+      "package": "com.nteboheleng.Limkokwings",
+      "permissions": ["INTERNET"]
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./assets/limko.png"
     },
     "extra": {
       "eas": {
@@ -32,8 +33,7 @@
       }
     },
     "plugins": [
-      "expo-font",
-      "expo-video"
+      "expo-font"
     ]
   }
 }
